@@ -109,5 +109,14 @@ def main():
     plt.savefig(output_filename, dpi=300, bbox_inches='tight')
     print(f"Dashboard successfully saved as {output_filename}")
 
+    # Output Key Insights to Console
+    print("\n" + "="*50)
+    print("📊 KEY PATTERNS & TRENDS IDENTIFIED:")
+    print("="*50)
+    print("1. Gender: Female passengers had a significantly higher survival rate than males.")
+    print("2. Ticket Class: 1st-class passengers were much more likely to survive compared to 3rd-class.")
+    print("3. Age Demographics: Younger passengers (especially children) had notably better survival outcomes.")
+    print("="*50 + "\n")
+
 if __name__ == "__main__":
     main()
